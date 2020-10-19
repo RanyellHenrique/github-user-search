@@ -18,11 +18,5 @@ body {
     background: #E5E5E5;
 }
 
-a {
-    &:hover {
-      text-decoration: none;
-      color: unset;
-    }
-  }
 
 @import "~bootstrap/scss/bootstrap.scss";

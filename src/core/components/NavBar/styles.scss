@@ -13,3 +13,10 @@
     line-height: 32px;
     color: #FFFFFF;
 }
+
+a {
+    &:hover {
+      text-decoration: none;
+      color: unset;
+    }
+  }

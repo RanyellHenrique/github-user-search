@@ -1,5 +1,5 @@
 .search-container {
-    padding: 54px 99px 0px 90px;
+    padding: 54px 99px 73px 90px;
 }
 
 .search-input-content {
@@ -49,6 +49,7 @@
     border-radius: 8px;
     margin-top: 50px;
     display: flex;
+    padding: 24px 43px 15px 30px;
 }
 
 .search-info-content {
@@ -111,6 +112,11 @@
         line-height: 24px;
         color: #737373;
         padding: 8px 0px 8px 10px ;
+
+        span {
+            color: #737373;
+            font-weight: normal;
+        }
     }
 }
 
@@ -138,5 +144,9 @@
     color: #595959;
     padding: 0px 14px;
     margin-right: 8px;
+}
+
+.margin-loader{
+    margin-right: 54px;
 }
 
